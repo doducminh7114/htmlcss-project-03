@@ -498,3 +498,43 @@ a {
 .control-next-icon {
   rotate: 180deg;
 }
+
+/* install */
+.install {
+  margin-top: 180px;
+}
+.install__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+
+.install__img {
+  display: block;
+  height: 522px;
+  width: 284px;
+  margin-top: -95px;
+  object-fit: cover;
+}
+
+.install__content {
+  width: 50%;
+}
+
+.install__heading,
+.install__desc {
+  color: #fff;
+}
+
+.install__heading {
+  max-width: 489px;
+}
+
+.install-row {
+  display: flex;
+  column-gap: 28px;
+  margin-top: 38px;
+}
